@@ -1,3 +1,4 @@
+import { Fragment } from 'react'
 import { Clock3, Code2, Info, Route, Sparkles } from 'lucide-react'
 
 function BulletList({ items }) {
@@ -31,10 +32,10 @@ export default function CandidateProcess({ insight }) {
         <div className="block-label"><Route size={17} /> Reported stages</div>
         <div className="stage-row">
           {insight.stages.map((stage, index) => (
-            <React.Fragment key={stage}>
+            <Fragment key={stage}>
               <span className="stage-pill">{stage}</span>
               {index < insight.stages.length - 1 && <span className="arrow">→</span>}
-            </React.Fragment>
+            </Fragment>
           ))}
         </div>
       </div>
