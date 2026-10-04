@@ -17,7 +17,7 @@ Show recent candidate-reported recruiting information directly on the job page, 
 - Approximate response timing
 - Recruiting cycle and last updated date
 
-For this prototype, I used **Ramp — Software Engineering Intern, 2027** as the example.
+For this prototype, I used **Ramp —> Software Engineering Intern, 2027** as the example.
 
 ## Why I kept it small
 
