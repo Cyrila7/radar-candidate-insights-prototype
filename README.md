@@ -23,10 +23,9 @@ The Applications tracker was considered because it is closer to the moment an OA
 ## Run locally
 
 ```bash
+git clone https://github.com/Cyrila7/radar-candidate-insights-prototype.git
+cd radar-candidate-insights-prototype
 npm install
 npm run dev
 ```
 
-## Important
-
-Candidate-process copy in this prototype is seeded example content for product exploration and should not be treated as an official or verified description of Ramp's current recruiting process.
