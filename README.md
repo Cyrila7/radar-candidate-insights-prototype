@@ -1,24 +1,33 @@
-# Radar Candidate Insights Prototype
+# Radar Candidate Recruiting Insights
 
-A lightweight React prototype exploring whether recent, role-specific candidate recruiting information could reduce the need for internship seekers to leave Early Career Radar and piece together recruiting-process information across external sites.
+A small React prototype for an idea I explored while using Early Career Radar.
 
-## Prototype scope
+## The problem
 
-This intentionally tests the **information value**, not a full community system. It adds one candidate-reported recruiting-process section to a standalone Ramp Software Engineering Intern 2027 job-detail mockup.
+When I received an online assessment or interview, I would leave Radar and search places like Reddit or InternDB to learn what previous candidates experienced.
 
-The section includes:
-- reported recruiting stages
+That information can be scattered and hard to match to the same role and recruiting year.
+
+## The idea
+
+Show recent candidate-reported recruiting information directly on the job page, including:
+
+- Recruiting stages
 - OA/interview format and topics
-- response-timing context
-- recruiting-cycle recency and trust language
+- Approximate response timing
+- Recruiting cycle and last updated date
 
-## Deliberately out of scope
+For this prototype, I used **Ramp — Software Engineering Intern, 2027** as the example.
 
-No user submissions, profiles, voting, comments, moderation, notifications, scraping, AI summaries, verification pipeline, backend API, or multi-company database.
+## Why I kept it small
 
-## Why job detail?
+The goal is to first see whether students find this information useful. The prototype uses simple example data and does not need a backend or database yet.
 
-The Applications tracker was considered because it is closer to the moment an OA/interview arrives. It was rejected for the MVP because it introduces another assumption: that users naturally return to the tracker at that moment. Job Detail lets the prototype isolate the core question: is this information useful when available?
+## Built with
+
+- React
+- Vite
+- CSS
 
 ## Run locally
 
@@ -28,4 +37,3 @@ cd radar-candidate-insights-prototype
 npm install
 npm run dev
 ```
-
