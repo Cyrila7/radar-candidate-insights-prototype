@@ -37,3 +37,19 @@ cd radar-candidate-insights-prototype
 npm install
 npm run dev
 ```
+
+## Prototype screenshots
+
+The screenshots below show an **independent concept prototype**, not a feature currently available on Early Career Radar. The Ramp listing and candidate-report information are illustrative sample content.
+
+### 1. Candidate recruiting insights
+
+![Candidate recruiting insights showing reported stages, online assessment topics, and response timing](candidate-insights.png)
+
+### 2. Internship description context
+
+![Example internship description and role information](job-description.png)
+
+### 3. Job details and application flow
+
+![Example job details and external application button](application-flow.png)
